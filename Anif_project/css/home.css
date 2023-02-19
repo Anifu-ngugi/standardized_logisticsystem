@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    
 
      /*background-image: linear-gradient(rgba(60,60,60),rgba(140,60,60));*/
 }
@@ -60,25 +60,13 @@ height: 300px;
 margin-left:0px;
 overflow-x: hidden;
 overflow-y: hidden;
-background-image: url(/photos/ocean.jpg);
+background-image: url(/photos/truck.jpg);
 background-repeat: no-repeat;
-background-position:center ;
+background-position: center;
 background-size: cover;
+max-width: 100%;
 
 }
-/*.slidecontainer figure h1{
-    width: 50px;
-    margin:20px auto 0;
-    text-align: center;
-    color: #fff;
-    font-size: x-small;  
-}
-.slidecontainer figure h3{
-    width: 100%;
-    margin: 1px auto 1px;
-    font-weight: 100;
-    line-height: 15px;
-}*/
 
 .slidecontainer figure img{
     object-fit: cover;   
@@ -132,20 +120,109 @@ slidecontainer figure img:nth-child(3){
 slidecontainer figure img:nth-child(4){
     animation-delay: 6s;
 }
-.box {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    background-color: #ccc;
-    float: left;
+/*solution*/
+  .solution{
+    width:95%;
+    margin:auto;
+    text-align: center;
+    padding-top: 20px;
+    
   }
+  h1{
+    color: #333;
+    font-weight: 600;
+  }
+  p{
+    font-size: 14px;
+    color: #333;
+    line-height: 300;
+    line-height: 22px;
+    padding:10px;
+  }
+  .row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .solution-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 15px;
+    padding:20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background: #dfddeb;
+    
+
+  }
+  h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .solution-col:hover{
+    box-shadow:0 0 20px 0px rgba(32, 12, 218, 0.2);
+  }
+  .products{
+    width:95%;
+    margin:auto;
+    text-align: center;
+    padding-top: 5px;
+    
+    height: 300px;
+    
+  }
+  .product-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  .product-col img{
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    
+    
+
+  }
+  .layer-top{
+    background:transparent;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .layer-top:hover{
+    background: rgba(6, 6, 7, 0.2);
+  }
+  .layer-top h3{
+    width: 100%;
+    font-weight: 500;
+    color:aqua;
+    font-size: 26px;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    opacity: 0;
+    position: absolute;
+  }
+  .layer-top:hover h3{
+    bottom: 49%;
+    opacity: 1;
+  }
+  .overall{
+    background-image: rgba(0,0,0,0.7),rgba(0,0,0,0.7);
+    
+    
+  }
+
+   
   
-  aside {
-    float: left;
-    margin-left: 20px;
-  }
-  
-  section, aside {
-    border: 1px solid #333;
-    padding: 10px;
-  }
