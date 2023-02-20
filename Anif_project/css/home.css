@@ -60,7 +60,7 @@ height: 300px;
 margin-left:0px;
 overflow-x: hidden;
 overflow-y: hidden;
-background-image: url(/photos/truck.jpg);
+background-image: url(../photos/truck.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -153,8 +153,6 @@ slidecontainer figure img:nth-child(4){
     box-sizing: border-box;
     transition: 0.5s;
     background: #dfddeb;
-    
-
   }
   h3{
     text-align: center;
@@ -162,7 +160,7 @@ slidecontainer figure img:nth-child(4){
     margin: 10px 0;
   }
   .solution-col:hover{
-    box-shadow:0 0 20px 0px rgba(32, 12, 218, 0.2);
+    box-shadow:0 0 20px 0px rgba(32, 12, 218, 0.5);
   }
   .products{
     width:95%;
